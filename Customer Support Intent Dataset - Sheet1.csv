@@ -1,0 +1,11 @@
+ID,CUSTOMER MESSAGE,INTENT,CONFIDENCE,REASON
+1,I was Charged twice for the same order,Billing,High,The customer is reporting a duplicate charge
+2,I forgot my password and can't log into my account,Password reset,High,The customer has password issues logging into account
+3,How long will it take for my package to arrive?,Delivery,High,Customer want to know package arrival time
+4,I want to cancel my order before it ships,Cancellation,High,The customer requets to cancel order
+5,The app keeps crashing whenever i try to open it,Technical issue,High,The customer complains of difficulty trying to open the app
+6,Can i change the email address associated with my account,Account access,High,Customer requests to change email adress
+7,I returned my order two weeks ago. When will i receive my money back?,Refund,High,The customer is asking for a refund
+8,What payment methods do you accept?,Billing,Medium,Customer is making enquiry
+9,My account is locked and I can't access it.,Account access,High,The customer is having difficulty accessing account
+10,I need help understanding how your subscription works,General question,Low,The customer is asking for assistance understanding how the subscription works
