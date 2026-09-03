@@ -62,6 +62,22 @@ The guidelines helped ensure that:
 - Individual keywords were not used as the only basis for classification.
 - Annotations were reviewed for consistency.
 - Ambiguous messages were assigned an appropriate confidence level.
+-
+-   ## Annotation Quality & Decision-Making
+
+For each annotation, I focused on the customer's primary intent rather than relying on individual keywords.
+
+When making labeling decisions, I considered:
+
+- The overall meaning of the customer's message
+- The main reason for contacting support
+- The most appropriate predefined category
+- Whether the message clearly matched the selected intent
+- The level of confidence in the annotation decision
+
+For messages where the intent was less explicit, I used the confidence field to indicate uncertainty and documented the reasoning behind the classification.
+
+This approach helps support consistent, explainable, and reviewable annotations.
 
 ## Tools Used
 
